@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.three-element-container{
+    width: 60%;
+}
+
+.top-element {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header-text {
+    color: white;
+}
+
+.menu {
+    height: 50px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.u-element1 {
+    width: 100px;
+    height: 30px;
+}
+
+.u-element2 {
+    width: 100px;
+    height: 30px;
+}
+
+.u-element3 {
+    width: 100px;
+    height: 30px;
+}
+
+.u-element4 {
+    width: 100px;
+    height: 30px;
+}
+
+.u-element5 {
+    width: 100px;
+    height: 30px;
+}
+
+.u-element1:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+.u-element2:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+.u-element3:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+.u-element4:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+.u-element5:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.middle-object {
+    height: 500px;
+    background-color: #2d2c2c;
+    padding: 15px;
+    position: relative;
+}
+
+/* .top {
+    height: 60px;   
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    color: #34d1e2;
+    font-size: 1.5em;
+    align-items: center;
+} */
+
+.center {
+    height: 140px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.block {
+    height: 140px;
+    width: 30%;
+    text-align: start;
+    padding: 10px;
+}
+.block>h2{
+    text-align: start;
+}
+
+.reason-image1 {
+    float: left;
+}
+
+.reason-image2 {
+    float: left;
+}
+
+.reason-image3 {
+    float: left;
+}
+
+.bottom {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mini-container {
+    width: 65%;
+    height: 100%;
+}
+
+.text-above {
+    height: 50px;
+    width: 65%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-text{
+    color: #34d1e2;
+    font-size: 1.7em;
+    text-align: start;
+}
+
+.apple {
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple-img {
+    background-image: url(image_01.jpg);
+    width: 220px;
+    height: 220px;
+    border: 5px solid black;
+}
+
+.text-about {
+    height: 220px;
+    width: 400px;
+    color: white;
+}
+
+.more-info {
+    color: white;
+    font-size: 1em;
+    background-image: url(btn.png);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    bottom: 1%;
+    right: 35%;
+}
+
+.more-info:hover {
+    background-image: url(btn_hover.png);
+}
+
+.last-piece {
+    width: 33%;
+    height: 100%;
+    padding: 10px;
+}
+
+.first-piece {
+    color: #34d1e2;
+}
+
+.second-piece {
+    color: white;
+}
+
+
+
+
+/* :nth-child(n)	p:nth-child(2)	Selects every <p> element that is the second child of its parent
+:nth-last-child(n)	p:nth-last-child(2)	Selects every <p> element that is the second child of its parent, counting from the last child
+:nth-last-of-type(n)	p:nth-last-of-type(2)	Selects every <p> element that is the second <p> element of its parent, counting from the last child
+:nth-of-type(n)	p:nth-of-type(2)	Selects every <p> element that is the second <p> element of its parent
+:only-of-type	p:only-of-type	Selects every <p> element that is the only <p> element of its parent
+:only-child	p:only-child	Selects every <p> element that is the only child of its parent */
+
+/* https://canonium.com/articles/css-understanding-weight-selectors/ */
