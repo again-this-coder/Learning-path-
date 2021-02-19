@@ -174,3 +174,8 @@ li {
     text-align: center;
     z-index: 2;
 }
+
+.text-center-menu{
+    font-family: "Oswald";
+    text-align: center;
+}
