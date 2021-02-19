@@ -1,96 +1,179 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
 }
+
+.text-center {
+    text-align: center;
+    font-family: url(./Oswald-Regular.ttf);
+}
+
 .container {
     height: 100vh;
     width: 100vw;
-    background-image: url("../Project-1/bg.jpg");
+    background-image: url("./bg.jpg");
     background-size: cover;
-    display:flex;
-    justify-content:center;
-    
- }
+    display: flex;
+    justify-content: center;
+}
 
- .topelement {
-    height: 100px;
-    width: 75%;
+.three-element-container {
+    width: 60%;
+}
+
+.top-element {
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    position: relative;
- }
+}
 
- .headertext{
-     color: white;
+.header-text {
+    color: white;
+}
 
- }
-
- .undertop{
+.menu {
     height: 50px;
-    width: 75%;
     background-color: black;
     opacity: 0.6;
     color: white;
     display: flex;
-    position: absolute;
-    top: 100px;
     justify-content: flex-start;
     align-items: center;
     font-size: 1.1em;
-
-    
 }
-.uelement1{
-width:  100px;
-height: 30px;
 
-}
-.uelement2{
+.u-element1 {
     width: 100px;
     height: 30px;
-   
-    }
-    .uelement3{
-        width: 100px;
-        height: 30px;
-     
-        }
-        .uelement4{
-            width: 100px;
-            height: 30px;
-        
-            }   
-            .uelement5{
-                width: 100px;
-                height: 30px;
-             
-                }
-.uelement1:hover{
-    color: white;
-    background-image: url(../Project-1/menu_hover.png);
-    
 }
-.uelement2:hover{
-    color: white;
-    background-image: url(../Project-1/menu_hover.png); 
+
+.u-element2 {
+    width: 100px;
+    height: 30px;
 }
-.uelement3:hover{
-    color: white;
-    background-image: url(../Project-1/menu_hover.png); 
+
+.u-element3 {
+    width: 100px;
+    height: 30px;
 }
-.uelement4:hover{
-    color: white;
-    background-image: url(../Project-1/menu_hover.png); 
+
+.u-element4 {
+    width: 100px;
+    height: 30px;
 }
-.uelement5:hover{
-    color: white;
-    background-image: url(../Project-1/menu_hover.png); 
+
+.u-element5 {
+    width: 100px;
+    height: 30px;
 }
-a{
+
+.u-element1:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+.u-element2:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+.u-element3:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+.u-element4:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+.u-element5:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+a {
     color: white;
     display: block;
     text-decoration: none;
+}
+
+.large-box {
+    height: 550px;
+    background-color: #2d2c2c;
+    padding: 15px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.core-styles {
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    color: white;
+}
+
+h2 {
+    color: #34d1e2;
+    font-size: 1.7em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.flowers {
+    float: left;
+    border: 5px solid black;
+    margin: 6px;
+}
+
+.more-info {
+    color: white;
+    font-size: 1em;
+    background-image: url(btn.png);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 48%;
+    right: 55%;
+}
+
+.more-info:hover {
+    background-image: url(btn_hover.png);
+}
+
+li {
+    list-style-image: url(./list.png);
+    padding: 5px;
+    font-family: url(./Oswald-Regular.ttf);
+}
+
+.movement2 {
+    right: 10%;
+}
+
+.apple-image {
+    float: left;
+    border: 5px solid black;
+    margin: 6px;
+    font-family: Oswald-Regular;
+    src: url(Oswald-Regular.ttf);
+}
+
+.movement3 {
+    right: 55%;
+    top: 90%;
+}
+
+.movement4 {
+    right: 10%;
+    top: 90%
 }

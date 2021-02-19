@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-.text-center{
+.text-center {
     text-align: center;
+    font-family: url(./Oswald-Regular.ttf);
 }
 
 .container {
@@ -17,12 +18,12 @@
     justify-content: center;
 }
 
-.three-element-container{
+.three-element-container {
     width: 60%;
 }
 
 .top-element {
-    height: 100px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -104,23 +105,18 @@ a {
     background-color: #2d2c2c;
     padding: 15px;
     position: relative;
+    top: 50px;
 }
-
-/* .top {
-    height: 60px;   
-    width: 95%;
-    display: flex;
-    justify-content: flex-start;
-    color: #34d1e2;
-    font-size: 1.5em;
-    align-items: center;
-} */
 
 .center {
     height: 140px;
     color: white;
     display: flex;
     justify-content: flex-start;
+}
+h2{
+    padding: 4px;
+    font-family: url(./Oswald-Bold.ttf);
 }
 
 .block {
@@ -129,20 +125,24 @@ a {
     text-align: start;
     padding: 10px;
 }
-.block>h2{
+
+.block>h2 {
     text-align: start;
 }
 
 .reason-image1 {
     float: left;
+    padding: 10px;
 }
 
 .reason-image2 {
     float: left;
+    padding: 10px;
 }
 
 .reason-image3 {
     float: left;
+    padding: 10px;
 }
 
 .bottom {
@@ -165,7 +165,7 @@ a {
     align-items: center;
 }
 
-.title-text{
+.title-text {
     color: #34d1e2;
     font-size: 1.7em;
     text-align: start;
@@ -189,6 +189,8 @@ a {
     height: 220px;
     width: 400px;
     color: white;
+    font-style: italic;
+    padding: 10px;
 }
 
 .more-info {
@@ -219,6 +221,7 @@ a {
 
 .second-piece {
     color: white;
+    padding: 10px;
 }
 
 

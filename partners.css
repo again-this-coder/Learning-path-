@@ -1,95 +1,100 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
 }
+
+.text-center {
+    text-align: center;
+    font-family: url(./Oswald-Regular.ttf);
+}
+
 .container {
     height: 100vh;
     width: 100vw;
-    background-image: url("../Project-1/bg.jpg");
+    background-image: url("./bg.jpg");
     background-size: cover;
-    display:flex;
-    justify-content:center;
-    
- }
+    display: flex;
+    justify-content: center;
+}
 
- .topelement {
+.three-element-container {
+    width: 60%;
+}
+
+.top-element {
     height: 100px;
-    width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    position: relative;
- }
+}
 
- .headertext{
-     color: white;
+.header-text {
+    color: white;
+}
 
- }
-
- .undertop{
+.menu {
     height: 50px;
-    width: 75%;
     background-color: black;
     opacity: 0.6;
     color: white;
     display: flex;
-    position: absolute;
-    top: 100px;
     justify-content: flex-start;
     align-items: center;
     font-size: 1.1em;
-
-    
 }
-.uelement1{
-width:  100px;
-height: 30px;
 
-}
-.uelement2{
+.u-element1 {
     width: 100px;
     height: 30px;
-   
-    }
-    .uelement3{
-        width: 100px;
-        height: 30px;
-     
-        }
-        .uelement4{
-            width: 100px;
-            height: 30px;
-        
-            }   
-            .uelement5{
-                width: 100px;
-                height: 30px;
-             
-                }
-.uelement1:hover{
-    color: white;
-    background-image: url(../Project-1/menu_hover.png);
-    
 }
-.uelement2:hover{
-    color: white;
-    background-image: url(../Project-1/menu_hover.png); 
+
+.u-element2 {
+    width: 100px;
+    height: 30px;
 }
-.uelement3:hover{
-    color: white;
-    background-image: url(../Project-1/menu_hover.png); 
+
+.u-element3 {
+    width: 100px;
+    height: 30px;
 }
-.uelement4:hover{
-    color: white;
-    background-image: url(../Project-1/menu_hover.png); 
+
+.u-element4 {
+    width: 100px;
+    height: 30px;
 }
-.uelement5:hover{
-    color: white;
-    background-image: url(../Project-1/menu_hover.png); 
+
+.u-element5 {
+    width: 100px;
+    height: 30px;
 }
-a{
+
+.u-element1:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+.u-element2:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+.u-element3:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+.u-element4:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+.u-element5:hover {
+    color: white;
+    background-image: url(menu_hover.png);
+}
+
+a {
     color: white;
     display: block;
     text-decoration: none;
