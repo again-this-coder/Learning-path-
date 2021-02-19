@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-@font-face{font-family: 'Oswald';
+@font-face {
+    font-family: 'Oswald';
     src: url(./Oswald-Regular.ttf);
 }
 
@@ -165,17 +166,17 @@ li {
     margin: 6px;
 }
 
-.posit{
+.posit {
     position: relative;
 }
 
-.text-but{
+.text-but {
     font-family: "Oswald";
     text-align: center;
     z-index: 2;
 }
 
-.text-center-menu{
+.text-center-menu {
     font-family: "Oswald";
     text-align: center;
 }
