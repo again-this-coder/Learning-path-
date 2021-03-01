@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Myriadpro';
+    src: url(./MyriadPro-Regular.ttf);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(202, 202, 202);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: "Myriadpro";
+}
+
+.content-container{
+    width:60%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.double-element-top{
+    width: 90%;
+    height: 13%;
+}
+
+.menu {
+    height: 40px;
+    background-color: rgb(88, 88, 88);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1em;
+}
+
+.menu-element {
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.midddle-container{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+li{
+    width: 200px;
+    padding: 5px;
+    border: 1px solid grey;
+    list-style-type: none;
+    color: black;
+    padding-left: 20px;
+}
+
+.bicycle{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bike-image{
+    border: 2px solid grey;
+}
+
+.text-under-bike{
+    width: 450px;
+    height: 110px;
+    padding-top: 30px;
+}
+
+.bottom-container{
+    width:90%;
+    height: 5%;
+    background-color: rgb(199, 196, 196);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-element{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1em;
+}
+
+.right-element{
+font-weight: bold;
+padding-top: 10px;
+padding-right: 20px;
+}
+
+.bottom-menu-style{
+    color: black;
+}
